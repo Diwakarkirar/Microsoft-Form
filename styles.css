@@ -1,0 +1,102 @@
+body{
+  background-image: url('work.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+.form{
+  position: absolute;
+  border:none;
+  width:55vw;
+  margin-left:5vw;
+  margin-top:10vh;
+  height:200vh;
+    box-shadow: 5px 5px 8px 5px #9999a1;
+    background-color: #30bced;
+}
+.header{
+  width:55vw;
+  height:30vh;
+  border:none;
+  background-color:#9999a1;
+
+}
+.header h1{
+ position: absolute;
+
+  font-size: 2.5rem;
+  color:white;
+  font-family: 'Playfair Display', serif;
+margin-left:15vw;
+}
+.header p{
+  position: absolute;
+  font-family: 'Playfair Display', serif;
+  margin-left:2vw;
+  font-size:1rem;
+  font-weight:bold;
+  margin-top:15vh;
+  line-height:4vh;
+}
+.header i{
+  position: absolute;
+  margin-left:2vw;
+  margin-top:7vh;
+}
+h3{
+  font-weight:300;
+  font-family: 'Playfair Display', serif;
+}
+.questions{
+  margin-left:5vw;
+  margin-top:10vh;
+}
+label{
+  font-family: 'Playfair Display', serif;
+}
+input[type="checkbox"]{
+  margin-top:3vh;
+}
+input[type="text"]{
+  width:40vw;
+  height:5vh;
+  padding-left:1vw;
+  font-size:0.9rem;
+}
+input[type="radio"]{
+  display:none;
+
+}
+.fas{
+  margin-left:2vw;
+}
+input[type="radio"]:not(:checked)~label:hover,
+input[type="radio"]:not(:checked)~label:hover~label{
+  color:#fd4;
+}
+input[type="radio"]:checked~label{
+  color:#fd4;
+}
+input[type="radio"]#rate-1:checked~label{
+  color:#fe7;
+}
+button{
+  width:10vw;
+  height:5vh;
+  border-radius:2px;
+  margin-left:5vw;
+  margin-top:7vh;
+  background-color: #0d9658;
+  font-size:1rem;
+  font-weight: bold;
+  border:none;
+  font-family: 'Playfair Display', serif;
+
+}
+button:hover{
+  cursor:pointer;
+  width:12vw;
+  height:7vh;
+  margin-left:4vw;
+  margin-top:6vh;
+  font-size:1.3rem;
+}
